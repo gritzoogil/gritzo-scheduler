@@ -32,13 +32,13 @@ This is a simple task scheduling program written in C++ that helps you organize 
 
 2. Compile the code using the following command:
    ```bash
-   g++ task_scheduler.cpp -o task_scheduler
+   g++ Source.cpp -o task_scheduler
 3. Run the Executable
    ```bash
    ./task_scheduler
 
 ## Dependencies
-C++ Standard Library
+- C++ Standard Library
 
 ## Author
 Gil Guillermo
