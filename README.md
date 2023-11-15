@@ -34,8 +34,8 @@ This is a simple task scheduling program written in C++ that helps you organize 
    ```bash
    g++ task_scheduler.cpp -o task_scheduler
 
-Dependencies
+## Dependencies
 C++ Standard Library
 
-Author
+## Author
 Gil Guillermo
