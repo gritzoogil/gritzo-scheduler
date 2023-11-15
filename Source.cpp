@@ -24,7 +24,6 @@ int main() {
 
     // Input tasks
     cout << "List all of your tasks for the whole day. Type 'done' if you're done:" << endl;
-    cin.ignore(); 
     string task;
     while (getline(cin, task) && task != "done") {
         myTasks.push_back(task);
@@ -52,6 +51,8 @@ int main() {
             cout << "Invalid input. Choose a valid task number." << endl << endl;
         }
         else {
+            // Consume the newline character in the buffer
+            cin.ignore();
             break; // Valid input, exit the loop
         }
     }
